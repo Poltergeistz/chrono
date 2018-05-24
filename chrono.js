@@ -3,7 +3,7 @@ function Chrono() {
     let secondes = 0;
     let milsec = 0;
     this.start = function () {
-        dixiemes++
+        milsec++
         if (milsec > 9) {
             milsec = 0;
             secondes++
